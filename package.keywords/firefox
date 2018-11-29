@@ -1,0 +1,77 @@
+www-client/firefox ~amd64
+# required by net-misc/networkmanager-1.4.4-r1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/nss-3.36.1 ~amd64
+# required by www-client/firefox-55.0::gentoo
+# required by @selected
+# required by @world (argument)
+=virtual/rust-1.25.0 ~amd64
+# required by sys-devel/clang-runtime-5.0.0::gentoo[compiler-rt]
+# required by sys-devel/clang-5.0.0::gentoo
+# required by www-client/firefox-57.0::gentoo
+# required by @selected
+# required by @world (argument)
+=sys-libs/compiler-rt-5.0.0 ~amd64
+# required by sys-devel/clang-5.0.0::gentoo
+# required by www-client/firefox-57.0::gentoo
+# required by @selected
+# required by @world (argument)
+=sys-devel/clang-runtime-5.0.0 ~amd64
+# required by sys-devel/clang-runtime-5.0.0::gentoo[openmp]
+# required by sys-devel/clang-5.0.0::gentoo
+# required by www-client/firefox-57.0::gentoo
+# required by @selected
+# required by @world (argument)
+=sys-libs/libomp-5.0.0 ~amd64
+# required by www-client/firefox-57.0::gentoo
+# required by @selected
+# required by @world (argument)
+=sys-devel/clang-5.0.0 ~amd64
+# required by sys-devel/clang-runtime-5.0.0::gentoo[compiler-rt,sanitize]
+# required by sys-devel/clang-5.0.0::gentoo
+# required by www-client/firefox-57.0::gentoo
+# required by @selected
+# required by @world (argument)
+=sys-libs/compiler-rt-sanitizers-5.0.0 ~amd64
+# required by sys-devel/llvm-5.0.0::gentoo
+# required by www-client/firefox-57.0::gentoo
+# required by @selected
+# required by @world (argument)
+=sys-devel/llvm-common-5.0.0 ~amd64
+# required by net-libs/libsoup-2.56.1::gentoo
+# required by media-plugins/gst-plugins-soup-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[http]
+# required by @selected
+# required by @world (argument)
+=dev-db/sqlite-3.21.0 ~amd64
+# required by sys-devel/clang-5.0.0::gentoo
+# required by www-client/firefox-57.0::gentoo
+# required by @selected
+# required by @world (argument)
+=sys-devel/llvm-5.0.0 ~amd64
+# required by media-libs/mesa-18.0.0_rc2::gentoo
+# required by @selected
+# required by @world (argument)
+=x11-libs/libdrm-2.4.89 ~amd64
+# required by www-client/firefox-57.0::gentoo[system-icu]
+# required by @selected
+# required by @world (argument)
+=dev-libs/icu-60.1 ~amd64
+# required by www-client/firefox-59.0.2::mozilla
+# required by @selected
+# required by @world (argument)
+=dev-libs/nspr-4.19 ~amd64
+# required by www-client/firefox-60.0_beta14::mozilla
+# required by @selected
+# required by @world (argument)
+=dev-lang/rust-1.25.0 ~amd64
+# required by dev-lang/rust-1.25.0::gentoo
+# required by www-client/firefox-60.0_beta14::mozilla
+# required by @selected
+# required by @world (argument)
+=dev-util/cargo-0.26.0 ~amd64
+# required by www-client/firefox-63.0::mozilla
+# required by @selected
+# required by @world (argument)
+=dev-util/cbindgen-0.6.6 ~amd64

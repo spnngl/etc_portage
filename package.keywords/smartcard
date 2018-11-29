@@ -1,0 +1,4 @@
+sys-apps/pcsc-tools ~amd64
+# required by sys-apps/pcsc-tools-1.4.27::gentoo
+# required by pcsc-tools (argument)
+=dev-perl/pcsc-perl-1.4.14 ~amd64

@@ -1,0 +1,7 @@
+app-office/libreoffice pdfimport
+
+# required by libreoffice
+media-libs/harfbuzz icu
+# required by app-office/libreoffice-5.4.2.2::gentoo
+# required by libreoffice (argument)
+dev-libs/xmlsec nss

@@ -1,0 +1,13 @@
+# required by sys-boot/efibootmgr-15::gentoo
+# required by @selected
+# required by @world (argument)
+=sys-libs/efivar-36 ~amd64
+# required by sys-apps/fwupd-1.1.2::gentoo
+# required by fwupd (argument)
+=dev-libs/appstream-glib-0.7.9 ~amd64
+# required by fwupd (argument)
+sys-apps/fwupd ~amd64
+# required by sys-apps/fwupd-1.2.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/libxmlb-0.1.5 ~amd64

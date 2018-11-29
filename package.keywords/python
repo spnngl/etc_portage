@@ -1,0 +1,98 @@
+dev-python/ipython ~amd64
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[smp]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipywidgets-7.0.0::gentoo
+=dev-python/jupyter_client-5.1.0-r1 ~amd64
+# required by dev-python/nbconvert-5.2.1::gentoo
+# required by dev-python/notebook-5.0.0::gentoo
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[smp]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipywidgets-7.0.0::gentoo
+=dev-python/pandocfilters-1.4.2-r1 ~amd64
+# required by dev-python/nbconvert-5.2.1::gentoo
+# required by dev-python/notebook-5.0.0::gentoo
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[smp]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipywidgets-7.0.0::gentoo
+=dev-python/entrypoints-0.2.3 ~amd64
+# required by dev-python/nbconvert-5.2.1::gentoo
+# required by dev-python/notebook-5.0.0::gentoo
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[smp]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipywidgets-7.0.0::gentoo
+=dev-python/mistune-0.7.4 ~amd64
+# required by dev-python/ipython-5.4.1::gentoo[notebook]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+=dev-python/ipywidgets-7.0.0 ~amd64
+# required by dev-python/jupyter_client-5.1.0-r1::gentoo
+# required by dev-python/ipykernel-4.6.1-r2::gentoo
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[smp]
+# required by @selected
+# required by @world (argument)
+=dev-python/jupyter_core-4.3.0 ~amd64
+# required by dev-python/ipywidgets-7.0.0::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[notebook]
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+=dev-python/ipykernel-4.6.1-r2 ~amd64
+# required by dev-python/widgetsnbextension-3.0.0::gentoo
+# required by dev-python/ipywidgets-7.0.0::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[notebook]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+=dev-python/notebook-5.0.0 ~amd64
+# required by dev-python/ipython-5.4.1::gentoo[smp]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipywidgets-7.0.0::gentoo
+=dev-python/ipyparallel-6.0.2-r1 ~amd64
+# required by dev-python/ipywidgets-7.0.0::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[notebook]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+=dev-python/nbformat-4.3.0 ~amd64
+# required by dev-python/notebook-5.0.0::gentoo
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[smp]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipywidgets-7.0.0::gentoo
+=dev-python/nbconvert-5.2.1 ~amd64
+# required by dev-python/notebook-5.0.0::gentoo
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[smp]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipywidgets-7.0.0::gentoo
+=dev-libs/mathjax-2.7.0 ~amd64
+# required by dev-python/nbconvert-5.2.1::gentoo
+# required by dev-python/notebook-5.0.0::gentoo
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[smp]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipywidgets-7.0.0::gentoo
+=dev-python/testpath-0.3.1 ~amd64
+# required by dev-python/ipywidgets-7.0.0::gentoo
+# required by dev-python/ipython-5.4.1::gentoo[notebook]
+# required by dev-python/ipykernel-4.6.1-r2::gentoo[python_targets_python2_7]
+# required by dev-python/ipyparallel-6.0.2-r1::gentoo
+=dev-python/widgetsnbextension-3.0.0 ~amd64
+
+=dev-python/matplotlib-2.1.0-r1 ~amd64
+# required by dev-python/matplotlib-2.1.0-r1::gentoo
+# required by matplotlib (argument)
+=media-libs/qhull-2015.2 ~amd64
+# required by dev-python/matplotlib-2.1.0-r1::gentoo
+# required by matplotlib (argument)
+=dev-python/subprocess32-3.2.7 ~amd64
+# required by dev-python/matplotlib-2.1.0-r1::gentoo
+# required by matplotlib (argument)
+=dev-python/cycler-0.10.0 ~amd64
+# required by dev-python/matplotlib-2.1.0-r1::gentoo
+# required by matplotlib (argument)
+=dev-python/versioneer-0.16 ~amd64
+
+#dev-python/numpy ~amd64
+#dev-python/pandas ~amd64

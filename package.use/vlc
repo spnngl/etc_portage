@@ -1,0 +1,3 @@
+#for vlc
+sys-libs/zlib minizip
+media-video/vlc x264 x265

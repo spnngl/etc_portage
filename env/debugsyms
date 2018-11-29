@@ -1,0 +1,4 @@
+CFLAGS="-march=skylake -mtune=skylake -O0 -pipe -ggdb"
+CXXFLAGS="${CXXFLAGS} -ggdb"
+FEATURES="${FEATURES} splitdebug compressdebug -nostrip"
+USE="debug"

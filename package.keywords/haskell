@@ -1,0 +1,9 @@
+app-admin/haskell-updater ~amd64
+
+dev-lang/ghc::haskell ~amd64
+dev-haskell/*::haskell ~amd64
+dev-haskell/language-c ~amd64
+
+x11-wm/xmonad-contrib::haskell ~amd64
+x11-wm/xmonad::haskell ~amd64
+x11-misc/xmobar::haskell ~amd64

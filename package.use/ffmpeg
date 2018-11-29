@@ -1,0 +1,2 @@
+media-video/ffmpeg openssl gnutls ssh -openh264 -x265 -x264 -webp -encode
+virtual/ffmpeg threads -x264 -encode
