@@ -1,0 +1,2 @@
+xfce-base/thunar -dbus -libnotify -pcre -trash-panel-plugin -udisks
+xfce-base/libxfce4ui -startup-notification

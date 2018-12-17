@@ -2,7 +2,7 @@ net-misc/modemmanager ~amd64
 #=net-misc/ofono-1.20 ~amd64
 net-libs/libqmi ~amd64
 net-libs/libmbim ~amd64
-# required by net-misc/networkmanager-1.10.10::gentoo[nss]
+# required by net-misc/networkmanager-1.14.4::gentoo
 # required by @selected
 # required by @world (argument)
-=dev-libs/nss-3.39 ~amd64
+=dev-libs/nss-3.41 ~amd64

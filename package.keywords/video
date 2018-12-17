@@ -2,8 +2,6 @@ x11-libs/libva ~amd64
 media-video/libva-utils ~amd64
 x11-libs/libva-intel-driver ~amd64
 net-misc/youtube-dl ~amd64
-#media-plugins/gst-plugins-vaapi ~amd64
-media-video/mpv ~amd64
 
 media-libs/mesa ~amd64
 # required by x11-libs/libxcb-1.13::gentoo
@@ -26,30 +24,3 @@ media-libs/mesa ~amd64
 # required by @selected
 # required by @world (argument)
 =x11-libs/libxcb-1.13 ~amd64
-# required by media-libs/gst-plugins-bad-1.14.1::gentoo[gtk]
-# required by media-plugins/gst-plugins-vaapi-1.14.1::gentoo
-# required by media-plugins/gst-plugins-meta-1.12.4::gentoo[vaapi]
-# required by @selected
-# required by @world (argument)
-#=media-plugins/gst-plugins-gtk-1.14.1 ~amd64
-## required by media-plugins/gst-plugins-vaapi-1.14.1::gentoo
-## required by media-plugins/gst-plugins-meta-1.12.4::gentoo[vaapi]
-## required by @selected
-## required by @world (argument)
-#=media-libs/gst-plugins-bad-1.14.1 ~amd64
-## required by media-plugins/gst-plugins-soup-1.12.4::gentoo
-## required by media-plugins/gst-plugins-meta-1.12.4::gentoo[http]
-## required by @selected
-## required by @world (argument)
-#=media-libs/gst-plugins-good-1.14.1 ~amd64
-## required by media-plugins/gst-plugins-soup-1.12.4::gentoo
-## required by media-plugins/gst-plugins-meta-1.12.4::gentoo[http]
-## required by @selected
-## required by @world (argument)
-#=media-libs/gstreamer-1.14.1 ~amd64
-## required by media-libs/gst-plugins-ugly-1.12.4::gentoo
-## required by media-plugins/gst-plugins-a52dec-1.12.4::gentoo
-## required by media-plugins/gst-plugins-meta-1.12.4::gentoo[-dvd,a52]
-## required by @selected
-## required by @world (argument)
-#=media-libs/gst-plugins-base-1.14.1 ~amd64
